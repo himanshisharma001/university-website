@@ -1,0 +1,129 @@
+.choose-country-sub-dtls{
+    position: absolute;
+   top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:90%;
+    /* margin-left:10px;
+    margin-right:10px; */
+    background-color: #58585891;
+    padding:10px;
+    border-radius: 15px;
+}
+.choose-country-sub-dtls ul{
+    padding-left: 0px;
+}
+.choose-country-sub-dtls ul li{
+    font-size: 14px;
+    font-weight: 500;
+    color:#fff;
+    margin-top:5px;
+}
+
+.check-eligible-main-box{
+    background-image: url('https://media.architecturaldigest.com/photos/657a190c0359df27376f188f/16:9/w_2560%2Cc_limit/GettyImages-475439326.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 100px;
+    border-radius: 150px;
+}
+.check-eligible-main-box span{
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff
+}
+.check-eligible-main-box h2{
+    font-size: 25px;
+    font-weight: 600;
+    color:#e7e7e7;
+    margin-top:15px;
+}
+
+.check-eligible-main-box p{
+    font-size: 15px;
+    font-weight: 500;
+    color:#ffffff;
+    margin-top:10px;
+}
+.check-eligible-main-box button{
+    background-color: var(--second-color);
+    color:#fff;
+    padding:10px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    margin-top:10px;
+}
+
+.migrate-eligible-check-dtls h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#000000;
+}
+.migrate-eligible-check-dtls p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.eligible-number-check{
+    font-size: 100px;
+    font-weight: 700;
+    color:#9F9F9F;
+    text-align: justify;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+   
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+    color:#000000;
+}
+.accordion-item {
+    border:solid 1px rgba(56, 56, 56, 0.205);
+}
+.form-container{
+    background-color: #fff;
+    padding:30px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top:40px;
+}
+.input-label-title{
+    font-size: 16px;
+    font-weight: 600;
+    color:#000000
+}
+.input-box-show{
+    width:100%;
+    padding:8px;
+    border:solid 1px rgb(197, 197, 197);
+    outline:none;
+    border-radius: 10px;
+    margin-top:5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.input-box-show:focus{
+    border:solid 1px var(--first-color)
+}
+.reason-migrate-container{
+    background-image: url('https://e0.pxfuel.com/wallpapers/174/921/desktop-wallpaper-solid-blue-background-matte-blue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    padding:20px;
+}
+@media only screen and (max-width:768px){
+    .check-eligible-main-box{
+        padding: 20px 20px;
+        border-radius: 15px;
+    }
+}

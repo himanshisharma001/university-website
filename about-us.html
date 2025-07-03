@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assests/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assests/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/aboutUs.css">
+    <link rel="stylesheet" href="assests/css/study-abroad.css">
+    <link rel="stylesheet" href="assests/css/migrate.css">
+    <title>About page</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assests/images/uhublogo.png" alt="logo" class="img-fluid">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bi bi-list nav__toggle-menu"></i>
+                    <i class="bi bi-x-lg nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="nav__link">About Us</a>
+                    </li>
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <a href="study-abroad.html" class="nav__link align-items-center">Study Abroad <span
+                                class="dropdown__button"> <i class="bi-chevron-down dropdown__arrow"></i></span></a>
+
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <a href="migrate.html" class="nav__link align-items-center">Migrate <span
+                                class="dropdown__button"> <i class="bi-chevron-down dropdown__arrow"></i></span></a>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">
+                        <a href="#" class="nav__link align-items-center">Test Preparation <span
+                                class="dropdown__button"> <i class="bi-chevron-down dropdown__arrow"></i></span></a>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+                                        <li class="mt-2 text-center">
+                                            <a href="#" class="dropdown__link">
+                                                <img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg"
+                                                    alt="icon" class="dropdown-flag-icon">
+                                                <div class="mt-2"> Australia</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html" class="nav__link">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link"><span class=" get-started-btn">Get Started <i
+                                    class="bi bi-chevron-right"></i></span></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ====================== About Banner=========================== -->
+    <section>
+        <div class="about-banner-box">
+            <div class="about-banner-content">
+                <h6>Home <i class="bi bi-chevron-right"></i> About Us</h6>
+                <h1>About Universities Hub</h1>
+                <div class="about-university-hub-subheading">Helping students navigate their study abroad journey</div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= About Details==================================== -->
+    <section class="mt-5 mb-4">
+        <div class="container">
+            <div class="row main-row-dirtn">
+                <div class="col-md-5 mt-3 text-center">
+                    <div class="about-main-img-box">
+                        <img src="https://img.freepik.com/free-photo/international-day-education-cartoon-style_23-2151007380.jpg?t=st=1738995835~exp=1738999435~hmac=345d33eac74a5b2348ea9aa51e78d173b9e85d735db965b7d09185ba0b016601&w=360"
+                            alt="image" class="about-border-img img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-7 mt-3">
+                    <div class="free-counselling-dtls">
+                        <p class="text-center"><span>Immigration Services</span></p>
+                        <h2 class="text-center"><b>From Experienced Agents</b></h2>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course,
+                            university, visa requirements, or understanding cultural nuances. With tailored advice based
+                            on
+                            your goals and aspirations, we ensure that you receive the support you need to take the next
+                            step confidently. Reach out today and start your journey with a clear direction!</p>
+
+                        <div class="row">
+                            <div class="col-md-8 mt-2">
+                                <p>To become an undisputed leader in the field of overseas education, Satguru has
+                                    recruited a team of adept professionals. These professionals understand the
+                                    requirements of students and know how to find the proper information regarding
+                                    overseas education. It is due to our unique resources,
+                                    we are able to give step-by-step guidance for the entire process to the students.
+                                </p>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div><img src="./assests/images/about-img.png" alt="about-image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>Considering the growing interest of students in studying abroad, Satguru provides them with
+                            options to study in different countries such as the USA, United Kingdom, Australia, Canada,
+                            India, New Zealand, Singapore, Germany and so on. Understanding the fact that relocating to
+                            a foreign land is not always easy and is usually obstructed with apprehension and anxiety,
+                            so we ensure to provide professional advice which can do wonders to make candidates feel
+                            comfortable about the journey.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================== Why Choose us ============================================== -->
+    <section class="about-choose-section">
+        <div class="container">
+            <div class="study-serv-wthsubbox">
+                <h2>Why <span class="text-dark"><b>Choose Us</b></span></h2>
+                <p class="about-choose-para-show">The Numbers Say It All</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <div class="choose-numbers-show">
+                        <h2 class="choose-heading-number">1</h2>
+                        <div class="choose-course-box">
+                            <h3>1 Lakh <sup>+</sup></h3>
+                            <p>Recognized Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="choose-numbers-show">
+                        <h2 class="choose-heading-number">2</h2>
+                        <div class="choose-course-box">
+                            <h3>20%</h3>
+                            <p>Visa Success rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="choose-numbers-show">
+                        <h2 class="choose-heading-number">3</h2>
+                        <div class="choose-course-box">
+                            <h3>30 <sup>+</sup></h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="choose-numbers-show">
+                        <h2 class="choose-heading-number">4</h2>
+                        <div class="choose-course-box">
+                            <h3>38 <sup>+</sup></h3>
+                            <p>Student Enrollment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="text-dark mt-5 mb-3 text-center"><b>Take a Tour To Know More</b></h5>
+        </div>
+    </section>
+    <!-- ================================== What we do ============================================== -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="study-serv-wthsubbox" style="text-align: left;">
+                <h2><b>What We Do</b></h2>
+            </div>
+            <div class="institute-tab-box" style="border-bottom: none;">
+                <div class="institute-tablinks" onclick="openInstitute(event, 'students')" id="defaultOpen">Students
+                </div>
+                <div class="institute-tablinks ms-4" onclick="openInstitute(event, 'recruitment')">Recruitment Partners
+                </div>
+            </div>
+            <div id="students" class="institute-content-dtls">
+                <div class="row mt-2">
+                    <div class="col-md-7 mt-4">
+                        <div class="free-counselling-dtls">
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae deserunt dolor
+                                voluptate numquam incidunt cumque, rem, sint soluta explicabo, ea illum nulla culpa
+                                repudiandae laudantium necessitatibus magnam corrupti quo voluptas! Eaque ullam quo,
+                                soluta quia sapiente accusantium amet illum sunt pariatur itaque reiciendis maxime
+                                quisquam iusto porro fugiat quos corporis sed explicabo, ducimus vero aspernatur neque
+                                voluptatum dicta? Voluptatum est veniam recusandae, dicta dolores quasi temporibus!
+                                Facere dolores officiis ipsam veniam fuga, harum modi ex totam eius repellendus libero
+                                ipsum ducimus quas commodi, praesentium soluta possimus! Aspernatur facilis consectetur
+                                laboriosam libero magni possimus quia delectus! Maxime id sit necessitatibus maiores!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mt-4">
+                        <div><img src="assests/images/study-abroad-img.png" alt="image" class="img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="recruitment" class="institute-content-dtls">
+                <div class="row mt-3">
+                    <div class="col-md-7 mt-4">
+                        <div class="free-counselling-dtls">
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae deserunt dolor
+                                voluptate numquam incidunt cumque, rem, sint soluta explicabo, ea illum nulla culpa
+                                repudiandae laudantium necessitatibus magnam corrupti quo voluptas! Eaque ullam quo,
+                                soluta quia sapiente accusantium amet illum sunt pariatur itaque reiciendis maxime
+                                quisquam iusto porro fugiat quos corporis sed explicabo, ducimus vero aspernatur neque
+                                voluptatum dicta? Voluptatum est veniam recusandae, dicta dolores quasi temporibus!
+                                Facere dolores officiis ipsam veniam fuga, harum modi ex totam eius repellendus libero
+                                ipsum ducimus quas commodi, praesentium soluta possimus! Aspernatur facilis consectetur
+                                laboriosam libero magni possimus quia delectus! Maxime id sit necessitatibus maiores!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mt-4">
+                        <div><img src="assests/images/study-abroad-img.png" alt="image" class="img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================== Global Education ============================================== -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="study-serv-wthsubbox">
+                <span style="font-weight: 500;font-size: 15px;">Study Abroad Assistance from Universities Hub</span>
+                <h2 class="text-center">Expert counseling to ensure a smooth <span style="color:#0b1141"><b>academic
+                            journey</b></span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-1.png" alt="icon" class="img-fluid"></div>
+                        <h3>Course & University Selection</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-2.png" alt="icon" class="img-fluid"></div>
+                        <h3>Visa Assistance</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-3.png" alt="icon" class="img-fluid"></div>
+                        <h3>Travel Arrangements</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-4.png" alt="icon" class="img-fluid"></div>
+                        <h3>Pre-Departure Guidance</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-5.png" alt="icon" class="img-fluid"></div>
+                        <h3>Ongoing Support</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="swiper-study-card text-center" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div><img src="assests/images/educate-icon-6.png" alt="icon" class="img-fluid"></div>
+                        <h3>Services Provided</h3>
+                        <p>Our expert counselors will guide you through the entire process—be it selecting the right
+                            course, university, visa requirements, or university will understanding. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Get Started with applyboard ================================= -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="study-serv-wthsubbox">
+                <h2><b>Get started with applyboard</b></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-3">
+                    <div class="about-get-started-box">
+                        <div><img
+                                src="https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid"
+                                alt="image" class="img-fluid rounded"></div>
+                        <h4>Students</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptate cumque. Ad
+                            doloremque tempora iure quod debitis dolor maxime eum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="about-get-started-box">
+                        <div><img
+                                src="https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid"
+                                alt="image" class="img-fluid rounded"></div>
+                        <h4>Students</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptate cumque. Ad
+                            doloremque tempora iure quod debitis dolor maxime eum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="about-get-started-box">
+                        <div><img
+                                src="https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid"
+                                alt="image" class="img-fluid rounded"></div>
+                        <h4>Students</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptate cumque. Ad
+                            doloremque tempora iure quod debitis dolor maxime eum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Our Team ================================= -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="main-title-wthsubbox">
+                <h2>Meet <b>Our Team</b></h2>
+                <p>Get to know the talented individuals <br>behind our success.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img
+                                src="https://www.ultimatebeaver.com/wp-content/uploads/2021/04/photo-gallery-img-02.jpg"
+                                alt="user-image" class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img src="https://cbeyondsal.com/wp-content/uploads/2017/02/team_member_02-540x540.jpg"
+                                alt="user-image" class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img src="https://cbeyondsal.com/wp-content/uploads/2017/02/team_member_01-540x540.jpg"
+                                alt="user-image" class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img src="https://ypid.or.id/wp-content/uploads/2017/12/team-member-2.jpg" alt="user-image"
+                                class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img src="https://www.gestcall.it/wp-content/uploads/2017/04/team1.jpg" alt="user-image"
+                                class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="our-team-main-card">
+                        <div><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5iCMKKj8lTp440PMszx6HZS6JgT8EW2nrzw&s"
+                                alt="user-image" class="img-fluid"></div>
+                        <h5>Jhon Doe</h5>
+                        <p>Business Head</p>
+                        <div class="team-social-icon-main-box">
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-facebook"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-twitter"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-instagram"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="social-icon-show"><i class="bi bi-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= Footer ==================================== -->
+    <footer class="footer-bg">
+        <div class="container">
+            <div class="footer-counter">
+                <div class="row">
+                    <div class="col-md-3 mt-3 mb-3">
+                        <div class="counter-countup-show">
+                            <h2 data-target="10" data-plus="true">0 <sup>+</sup></h2>
+                            <p>Year Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 mb-3">
+                        <div class="counter-countup-show">
+                            <h2 data-target="20" data-suffix="K" data-plus="true">0 <sup>+</sup></h2>
+                            <p>Happy Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 mb-3">
+                        <div class="counter-countup-show">
+                            <h2 data-target="40" data-suffix="K" data-plus="true">0 <sup>+</sup></h2>
+                            <p>Happy Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-3 mb-3">
+                        <div class="counter-countup-show">
+                            <h2 data-target="80" data-suffix="K" data-plus="true">0 <sup>+</sup></h2>
+                            <p>Happy Students</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-5">
+                    <h2 class="footer-main-title">Branches in India</h2>
+                    <div class="row">
+                        <div class="col-md-4 mt-3 col-6">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-3 col-6">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-3 col-6">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 footer-column">
+                    <h2 class="footer-main-title">Branches in Other Countries</h2>
+                    <div class="row">
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3">
+                            <ul class="footer-list-item">
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                                <li><a href="#">Banglore</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mt-4">
+                    <div><img src="assests/images/uhublogo.png" alt="logo" class="img-fluid mt-5"></div>
+                    <div class="mt-4 text-end">
+                        <h6>Follow Us</h6>
+                        <div>
+                            <a href="#"><i class="bi bi-facebook fs-5 pointer-access"></i></a>
+                            <a href="#"><i class="bi bi-twitter fs-5 pointer-access"></i></a>
+                            <a href="#"><i class="bi bi-youtube fs-5 pointer-access"></i></a>
+                            <a href="#"><i class="bi bi-instagram fs-5 pointer-access"></i></a>
+                            <a href="#"><i class="bi bi-linkedin fs-5 pointer-access"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 mt-4">
+                    <h6 class="footer-sub-title-show">Branches in India</h6>
+                    <ul class="footer-list-item mt-3">
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mt-4 footer-column">
+                    <h6 class="footer-sub-title-show">Test preparation</h6>
+                    <ul class="footer-list-item mt-3">
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mt-4 footer-column">
+                    <h6 class="footer-sub-title-show">Migration Services</h6>
+                    <ul class="footer-list-item mt-3">
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mt-4 footer-column">
+                    <h6 class="footer-sub-title-show">Student Services</h6>
+                    <ul class="footer-list-item mt-3">
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 mt-4 footer-column">
+                    <h6 class="footer-sub-title-show">SOEGIS</h6>
+                    <ul class="footer-list-item mt-3">
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                        <li><a href="#">Study In Banglore</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- --------------------------Contact Pop up------------------------------- -->
+    <button class="banner-contact-btn"><a href="#" class="text-white"><i class="bi bi-envelope-fill"></i> Contact Us
+            <span class="contact-scroll-upshow">&#11180;</span></a></button>
+    <script src="assests/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assests/js/swiper-bundle.min.js"></script>
+    <script src="assests/js/script.js"></script>
+
+
+</body>
+
+</html>
